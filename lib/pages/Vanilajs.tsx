@@ -23,7 +23,7 @@ export default function Vanilajs() {
   });
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Kuliku Fetch Apiasd</Text>
+      <Text style={styles.text}>Kuliku Fetch Api</Text>
       <Button title="Get Data" onPress={getData} />
       <View style={styles.wrapper}>
         <Text style={styles.wrapperText}>{dataUser.id}</Text>
