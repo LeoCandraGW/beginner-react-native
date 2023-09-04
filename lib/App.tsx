@@ -7,6 +7,7 @@ import CommunicationKomponent from './pages/CommunicationKomponent';
 import Communication from './pages/CommunicationKomponent';
 import StylingComponent from './pages/StylingComponent';
 import BasicJavaScript from './pages/BasicJavaScript';
+import Vanilajs from './pages/Vanilajs';
 
 const App = () => {
   const [isShow, SetIsShow] = useState(true);
@@ -24,6 +25,7 @@ const App = () => {
         <StateDinamis></StateDinamis>
         <Communication></Communication>
         <BasicJavaScript></BasicJavaScript>
+        <Vanilajs></Vanilajs>
       </View>
     </ScrollView>
 
